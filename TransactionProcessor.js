@@ -7,7 +7,6 @@
 Ext.onReady(onReady);
 function onReady()
 {
-debugger;
 var xhr = new XMLHttpRequest();
 xhr.open("POST", "https://prod-api.level-labs.com/api/v2/core/get-all-transactions", true);
 xhr.setRequestHeader('Content-Type', 'application/json');
